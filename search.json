@@ -1,0 +1,35 @@
+{
+  "queries": [
+    {
+      "target": {
+        "record": {
+          "type": "item"
+        },
+        "id": 63
+      },
+      "expr": {
+        "op": "equals",
+        "operands": [
+          "07-17-2020",
+          ""
+        ]
+      }
+    },
+    "and",
+    {
+      "target": {
+        "record": {
+          "type": "item"
+        },
+        "id": 64
+      },
+      "expr": {
+        "op": "equals",
+        "operands": [
+          "1",
+          ""
+        ]
+      }
+    }
+  ]
+}
